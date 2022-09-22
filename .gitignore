@@ -4,3 +4,4 @@
 *.layout
 obj/
 bin/
+.vscode/
