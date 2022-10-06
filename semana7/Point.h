@@ -21,7 +21,7 @@ class Point {
         }
 
         void print() const {
-            std::cout << "(" << x << ", " << y << ")";
+            std::cout << "(" << x << ", " << y << ") ";
         }
     private:
         int x, y;

@@ -44,23 +44,22 @@ void iSort(Point array[], int n) {
             j = j - 1; 
         } 
         array[j + 1] = key; 
-    }
+    } 
 }
 
-
-int main() {    
+int main() {
     Point p1;
-    Point p2(14, 5);
-    Point p3(6, 5);
-    Point p4(24, 8);
-    Point p5(4, 15);   
+    Point p2(12,5);
+    Point p3(2,15);
+    Point p4(10,8);
+    Point p5(1,4);
 
-    Point arr[] = {p1, p2, p3, p4, p5};
-    int tam = sizeof(arr) / sizeof(arr[0]);
-
-    printArray(arr, tam);
-    iSort(arr, tam);
-    printArray(arr, tam);
-        
+    Point arreglo[] = {p1, p2, p3, p4, p5};    
+    int tam = sizeof(arreglo) / sizeof(arreglo[0]);
+    
+    printArray(arreglo,  tam);
+    iSort(arreglo, tam);
+    printArray(arreglo,  tam);
+    
     return 0;
 }
