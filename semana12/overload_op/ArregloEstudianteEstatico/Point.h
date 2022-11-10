@@ -28,7 +28,7 @@ class Point {
         friend std::ostream& operator<<(std::ostream &output, const Point &p);
 };
 
-std::ostream& operator<<(std::ostream &output, const Point &p) {
+inline std::ostream& operator<<(std::ostream &output, const Point &p) {
     output << "(" << p.x << ", " << p.y << ")";
     return output;
 }
